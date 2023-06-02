@@ -1,0 +1,218 @@
+*{
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+.header-top{
+    background-color: #3C2313;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+
+select{
+    background-color: #3C2313;
+    color: #fff;
+    border: none;
+}
+
+.header-top--derecha{
+    display: flex;
+    gap: 15px;
+}
+
+.header-bottom{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.header-bottom--list{
+    display: flex;
+    gap: 25px;
+}
+
+.header-bottom--list a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    background-image: url("../img/banner.png");
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-title{
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+.btn-comederos{
+    background-color: #F0A83E;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1rem;
+}
+
+/*Productos*/
+.productos--card{
+    background-color: #FBFAF6;
+}
+
+.productos-destacados{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.productos-destacados--list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.productos-destacados--productos{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.price{
+    color: #F0A83E;
+}
+
+/* Form */
+.form{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.form--title{
+    font-size: 1.4rem;
+}
+
+.form--input{
+    display: block;
+    margin: 10px auto;
+    background-color: #3C2313;
+    color: #fff;
+    width: 340px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: .8rem;
+}
+
+.form--reset-btn{
+    background-color: #8A8787;
+    border: none;
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.form--enviar-btn{
+    background-color: #F0A83E;
+    border: none;
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.subscripcion{
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.subscripcion--izquierda{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.subscripcion--input-form{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    padding:0 10px;
+}
+
+.subscripcion--btn{
+    background-color: #3C2313;
+    height: 34px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+}
+
+.footer-small-font{
+    color: #8A8787;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #3C2313;
+    color: white;
+    position: relative;
+}
+
+.footer--container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footer--info-section{
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    gap: 0 20px;
+}
+
+.footer--para-bottom{
+    text-align: center;
+    margin: 0;
+    background-color: #222;
+    padding: 5px 0;
+}
+
+.footer-subtitle{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
