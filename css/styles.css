@@ -80,6 +80,8 @@ select{
 /*Productos*/
 .productos--card{
     background-color: #FBFAF6;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .productos-destacados{
